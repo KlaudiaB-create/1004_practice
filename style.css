@@ -41,3 +41,67 @@ h1 {
     line-height: 1.39;
     margin-top: 30px;
 }
+
+.discussion {
+    padding: 100px 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 1.19;
+    margin: 25px 0 20px;
+}
+
+.heading::before {
+    content: "KUMONが向き合うもの";
+    display: inline-block;
+    padding: 8px 15px;
+    background: #72C9F3;
+    color: #fff;
+    line-height: 1;
+
+}
+
+.heading::after {
+    content: "";
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    background: #1E1E1E;
+}
+
+.post .postPhoto {
+    position: relative;
+    margin-top: 50px;
+}
+
+.postPhoto p {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 80%);
+    padding: 20px;
+    line-height: 1;
+}
+
+.tag {
+    margin: 20px auto 0;
+}
+
+.tag a {
+    color: #1E1E1E;
+    line-height: 1;
+    background: #F5F5F5;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.post:nth-child(n+3) {
+    margin-top: 100px;
+}
